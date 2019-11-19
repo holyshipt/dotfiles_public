@@ -3,6 +3,8 @@
 programname=$0
 
 function usage {
+  echo "utils that computes log file total sizes given a filter\n"
+  echo "log files are generally stored in /opt/<company>/<service>/var/log\n"
   echo "usage: $programname [hostname] [date(e.g., 2019-11-18)] [servicename(e.g., reputation_resolution_service]"
 }
 
